@@ -9,7 +9,9 @@
 Relational operator nodes exist for three types of variable nodes:
 
 **1.** **Integer relational operators.**
+
 **2.** **Double relational operators.**
+
 **3.** **Duration relational operators.**
 
 ## Integer Relational Operator Sub-Section
