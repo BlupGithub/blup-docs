@@ -1,5 +1,7 @@
 # Pages Properties
 
+<figure><img src="../../../.gitbook/assets/page-ui.gif" alt="Page UI"><figcaption><p>Page UI</p></figcaption></figure>
+
 ## Background colour
 
 The background color of the entire page can be altered. You can pick a colour by using the eyedropper, entering the hex code or from the manually adjusting the RGB scroller and selecting the appropriate saturation and lighting.

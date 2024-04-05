@@ -1,21 +1,66 @@
 # List Properties
 
-<table><thead><tr><th width="176"></th><th></th></tr></thead><tbody><tr><td><h4>Align Top</h4></td><td>Aligns the selected list to the top of the page.</td></tr><tr><td><h4>Align Vertical Center</h4></td><td>Positions the selected list right at the center of the vertical axis.</td></tr><tr><td><h4>Align Bottom </h4></td><td>Aligns the selected list to the bottom of the page.</td></tr><tr><td><h4>Align left</h4></td><td>Aligns the selected list to the left of the page.</td></tr><tr><td><h4>Align Horizontal Center</h4></td><td>Positions the selected list right at the center of the horizontal axis.</td></tr><tr><td><h4>Align Right</h4></td><td>Aligns the selected list to the right of the page.</td></tr><tr><td><h4>Add Logic</h4></td><td>Serves as another entry point to<a href="../../logics/"> Blup Lightning.</a></td></tr><tr><td><h4>Undo List</h4></td><td>This converts the list back into the widget that you created in the beginning.</td></tr><tr><td><h4>Position</h4></td><td>You can change the position of the selected list along the horizontal and vertical axis manually through the input box present.</td></tr><tr><td><h4>Width and Height</h4></td><td>This property helps you to assign the width and height manually through the input box present.</td></tr><tr><td><h4>Aspect Ratio Lock</h4></td><td>By checking this, the aspect ratio of the selected list will remain constant and can only be resized accordingly.</td></tr><tr><td><h4>Padding</h4></td><td>You can adjust the padding of the selected list through this. Either padding is added to each side individually or you can add for all the sides at once</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/list-ui.gif" alt="List UI"><figcaption><p>List UI</p></figcaption></figure>
 
-{% hint style="info" %}
-<mark style="color:blue;">Note: Padding is the space immediately surrounding an element within its cell.</mark>
-{% endhint %}
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Align Icons</strong></td>
+      <td>Click icons or use shortcut keys to align text. For example, click "Align Left" or use Ctrl+Shift+Left to left-align text.</td>
+    </tr>
+    <tr>
+      <td><strong>Postitions</strong></td>
+      <td>Set List positions on the X and Y axis of the mobile canvas.</td>
+    </tr> 
+    <tr>
+      <td><strong>List Size</strong></td>
+      <td>Specify the width and height of the List by providing values for width (W) and height (H).</td>
+    </tr> 
+    <tr>
+      <td><strong>Margin</strong></td>
+      <td>Provide margin to the List view from any of the four directions by specifying the margin value.</td>
+    </tr>
+    <tr>
+      <td><strong>List Type</strong></td>
+      <td>Select the layout of the list: simple list, wheel list, or one item list.</td>
+    </tr><tr>
+      <td><strong>Scroll Physics</strong></td>
+      <td>Adjust the scrollable effect: always scrollable, bouncing, clamping, or never scrollable scroll physics.</td>
+    </tr>
+    <tr>
+      <td><strong>Internal Scroll Margin</strong></td>
+      <td>Adjust the margin of the list from inside. Provide a fixed margin for all sides or set individual margins by clicking on the icon.</td>
+    </tr>
+    <tr>
+      <td><strong>Space Between Items</strong></td>
+      <td>Adjust the spacing between the items inside the list. Set item spacing to adjust space between items or grid space for equal horizontal and vertical spacing between items.</td>
+    </tr>
+    <tr>
+      <td><strong>Visible</strong></td>
+      <td>By checking the checkbox the entire selected list will be hidden.</td>
+    </tr><tr>
+      <td><strong>Horizontal Scroll</strong></td>
+      <td>Check the checkbox to hide horizontal scroll and show only one item.</td>
+    </tr>
+  </tbody>
+</table>
 
-<table><thead><tr><th width="171"></th><th></th></tr></thead><tbody><tr><td><h4>Item Count</h4></td><td>The number of items you want in your list can be manually specified in the input box.</td></tr><tr><td><h4>Grid Row Count</h4></td><td>You can specify the number of grids to be had in the selected list.</td></tr></tbody></table>
 
-{% hint style="info" %}
-<mark style="color:blue;">Note: If the value is 1 of this property it means that it’s a simple list, but if we increase the value of the property it becomes the grid.</mark>
-{% endhint %}
+If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
 
-<table><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><h4>Item Spacing</h4></td><td><p>You can manually enter the spacing [vertical height] between the list items.</p><p>Higher the value of item spacing greater the vertical height between the item in the list and vice versa.</p></td></tr><tr><td><h4>Grid Spacing</h4></td><td>You can manually enter the horizontal spacing between the grid items.</td></tr></tbody></table>
-
-{% hint style="info" %}
-<mark style="color:blue;">Note: The property only going to works when we have a grid, not a list.</mark>
-{% endhint %}
-
-<table><thead><tr><th width="166"></th><th></th></tr></thead><tbody><tr><td><h4>Is Horizontal Scroll</h4></td><td>This checkbox converts the vertical list into a horizontal list which means that instead of list items scrolling vertically they can now be scrolled horizontally.</td></tr><tr><td><h4>Is Hide</h4></td><td>By checking the checkbox the entire selected list will be hidden.</td></tr><tr><td><h4>List Type</h4></td><td><p></p><p>The list can be either of two types:</p><ol><li>Simple list – this type of list consists of multiple items on a single page.</li><li>On Item List – this type of list consists of only a single item per page.</li></ol></td></tr></tbody></table>
+## Music to go with.
+ 
+<div class="container">
+  {% tab title="Music" %}
+  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+  Lofi music
+  {% endembed %}
+  {% endtab %}
+  {% endtabs %}
+</div>

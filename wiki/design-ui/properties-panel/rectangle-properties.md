@@ -1,13 +1,72 @@
 # Rectangle Properties
 
-<table><thead><tr><th width="176"></th><th></th></tr></thead><tbody><tr><td><h4>Align Top</h4></td><td>Aligns the selected rectangle to the top of the page.</td></tr><tr><td><h4>Align Vertical Center</h4></td><td>Positions the selected rectangle right at the center of the vertical axis.</td></tr><tr><td><h4>Align Bottom </h4></td><td>Aligns the selected rectangle to the bottom of the page.</td></tr><tr><td><h4>Align left</h4></td><td>Aligns the selected rectangle to the left of the page.</td></tr><tr><td><h4>Align Horizontal Center</h4></td><td>Positions the selected rectangle right at the center of the horizontal axis.</td></tr><tr><td><h4>Align Right</h4></td><td>Aligns the selected rectangle to the right of the page.</td></tr><tr><td><h4>Add Logic</h4></td><td>Serves as another entry point to<a href="../../logics/"> Blup Lightning. </a></td></tr><tr><td><h4>Setup view</h4></td><td><p></p><p>This button allows users to choose the type of view the rectangle has to portray. The various options available for this are:</p><ul><li><em>List View</em>: The contents inside the rectangle will be presented in a scrollable unordered list format.</li><li><em>PageList View:</em> By enabling the PageList view, the selected rectangle will exhibit a list view of another page specified by the user. User can specify the page to be presented through the 'Add Pages to PageList' option.</li><li>Scroll View: Scroll view option allows you to scroll through the contents in the rectangle</li></ul></td></tr><tr><td><h4>Position</h4></td><td>You can change the position of the selected rectangle along the horizontal and vertical axis manually through the input box present.</td></tr><tr><td><h4>Width and Height</h4></td><td>This property helps you to assign the width and height manually through the input box present.</td></tr><tr><td><h4>Padding</h4></td><td>You can adjust the padding of the selected rectangle through this. Either padding is added to each side individually or you can add for all the sides at once</td></tr></tbody></table>
+<figure><img src="../../../.gitbook/assets/rectangle-ui.gif" alt="Rectangle UI"><figcaption><p>Rectangle UI</p></figcaption></figure>
 
-{% hint style="info" %}
-<mark style="color:blue;">Note: Padding is the space immediately surrounding an element within its cell.</mark>
-{% endhint %}
+### Components of Text UI
 
-<table><thead><tr><th width="176"></th><th></th></tr></thead><tbody><tr><td><h4>Corner Radius</h4></td><td>You can change the border radius of the selected rectangle manually using this option. Either the border radius is changed one side at a time or all at once.</td></tr><tr><td><h4>Fill</h4></td><td>This property is used to alter the background colour/gradient to the selected rectangle. Click on the color tile next to 'Fill', a dialog box pops up where you can adjust the various properties such as hue, lighting, saturation, opacity etc. When you have decided on a colour, click on the checkbox right next to the colour tile to apply it.</td></tr><tr><td><h4>Border</h4></td><td>This provides the option to apply colour and width to the border of the rectangle. Click on the color tile next to 'Border", a dialog box pops up where you can adjust the various properties such as hue, lighting, saturation, opacity etc. When you have decided on a colour, click on the checkbox right next to the colour tile to apply it. The width of the border can also be manually altered by the user by typing into the input box just below the 'Border' option.</td></tr><tr><td><h4>Shadow</h4></td><td><h2></h2><p>This property is used to add shadow to your rectangle. Click on the color tile next to "Shadow", a dialog box pops up where you can adjust the various properties such as hue, lighting, saturation, opacity etc. When you have decided on a colour, click on the checkbox right next to the colour tile to apply it. </p><p> There are three main input boxes present with this property</p><p>a. X-axis - The applied shadow can be moved in the horizontal direction using this option.</p><p>b. Y-axis – The applied shadow can be moved in the vertical direction using this option..</p><p>c. B – This property expands the effect of the applied shadow, If the value is smaller then the shadow is concentrated into a small area and vice versa.</p><p>d. S- The spread radius can be modified of the applied shadow can be modified through this.</p></td></tr><tr><td><h4>Inner Shadow</h4></td><td><p>This property is used to add  shadow to the interior your rectangle. Click on the color tile next to "Inner Shadow", a dialog box pops up where you can adjust the various properties such as hue, lighting, saturation, opacity etc. When you have decided on a colour, click on the checkbox right next to the colour tile to apply it. </p><p> There are three main input boxes present with this property</p><p>a. X-axis - The applied shadow can be moved in the horizontal direction using this option.</p><p>b. Y-axis – The applied shadow can be moved in the vertical direction using this option..</p><p>c. B – This property expands the effect of the applied shadow, If the value is smaller then the shadow is concentrated into a small area and vice versa.</p></td></tr><tr><td><h4>Is Hide checkbox</h4></td><td>Checking this checkbox hides the selected rectangle.</td></tr></tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Align Icons</strong></td>
+      <td>Click icons or use shortcut keys to align text. For example, click "Align Left" or use Ctrl+Shift+Left to left-align text.</td>
+    </tr>
+    <tr>
+      <td><strong>Positions</strong></td>
+      <td>Set Container positions on the X and Y axis of the mobile canvas.</td>
+    </tr> 
+    <tr>
+      <td><strong>Container Size</strong></td>
+      <td>Specify the width and height of the container by providing values for width (w) and height (h).</td>
+    </tr> 
+    <tr>
+      <td><strong>Z rotation</strong></td>
+      <td>Rotate the container by specifying a rotation value.</td>
+    </tr>
+     <tr>
+      <td><strong>Border Radius</strong></td>
+      <td>Adjust corner curvature by providing a value to create rounded corners. Individual corner adjustments are available by clicking on each corner.</td>
+    </tr>
+    <tr>
+      <td><strong>Margin</strong></td>
+      <td>Provide margin to the container from any of the four directions by specifying the margin value.</td>
+    </tr>
+    <tr>
+      <td><strong>Fill Color</strong></td>
+      <td>Choose a color to fill the container's interior.</td>
+    </tr><tr>
+      <td><strong>Border Color</strong></td>
+      <td>Choose a color to set the container's border color. Adjust the border color from inside, outside, or center of the container by selecting it from the drop down.</td>
+    </tr>
+    <tr>
+      <td><strong>Border Width</strong></td>
+      <td>Adjust the border width by providing a value. Select specific sides for border width by clicking the checkboxes.</td>
+    </tr>
+    <tr>
+      <td><strong>Shadow</strong></td>
+      <td>Apply a shadow effect to the container by selecting either a normal or inner shadow type.</td>
+    </tr>
+    <tr>
+      <td><strong>Visible</strong></td>
+      <td>By checking the checkbox the entire selected list will be hidden.</td>
+    </tr>
+  </tbody>
+</table>
 
-{% hint style="info" %}
-<mark style="color:blue;">Note: If you have hidden multiple widgets on a single screen and you wanted to see them all at once then you can see them with the help of the “Un-Hide widget of current Page” button present in the status bar.</mark>
-{% endhint %}
+If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+
+## Music to go with.
+ 
+<div class="container">
+  {% tab title="Music" %}
+  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+  Lofi music
+  {% endembed %}
+  {% endtab %}
+  {% endtabs %}
+</div>
