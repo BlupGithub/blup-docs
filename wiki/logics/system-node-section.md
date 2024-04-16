@@ -70,6 +70,25 @@ For example:– if you have changed the value of variables which is already pres
 This node only consists of a run input node point which can be attached with any function node point where you want to rebuild the UI.
 
 
+## Page | Get/Set Local Variable in Blup
+
+![](../../.gitbook/assets/set-get-variable.gif)
+
+### What is the use of Get And Set Local Variable
+
+The terms "Get" and "Set" are commonly used in the context of managing the state of a widget. 
+
+**Get:** To retrieve or access the value of a local variable within a screen, you simply use its name.
+
+**Set:** To update the value of a local variable within a screen, you typically use a function or method, often triggered by user interaction.
+
+### How to use Get And Set Local Variable.
+
+To use a Get and Set local variable in a Flutter screen:
+
+1\. **Set the Value**: You first set a value to a variable within the screen. This means you assign a value to a variable, typically in response to some action or event on the screen.
+
+2\. **Get the Value**: Once you've set the value, you can then retrieve or access that value within the same screen. This allows you to use or display the value elsewhere in the screen based on your needs.
 
 
 ## Page | Get Global Var Node

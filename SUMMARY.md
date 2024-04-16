@@ -80,5 +80,13 @@
   * [Play Store](wiki/publish-to-stores-ship/play-store.md)
 
 ***
-
+* [Blup Settings](setting-widget.md)
 * [Import from Figma](import-from-figma.md)
+* [How to use WebView in Blup](how-to-use-webview.md)
+* [How to use Google Maps in Blup](how-to-use-googlemaps.md)
+* [How to use Camera in blup](how-to-use-camera.md)
+* [How to add Splash screen in Blup](how-to-use-splash-screen.md)
+* [How to know Debug prints in blup](how-to-know-debug-prints.md)
+* [How to use Google sign in in Blup](how-to-use-google-signin.md)
+* [Creating sign up/ sign in in Blup](create-signin-signup.md)
+

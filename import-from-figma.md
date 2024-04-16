@@ -20,8 +20,6 @@ Paste the file-id you got from the first step and paste it in the File ID of  **
 
 ### Step 3: Create a Token from Figma
 
-
-
 <figure><img src=".gitbook/assets/figma_copy_token.gif" alt="create token from figma"><figcaption><p>Create token from figma</p></figcaption></figure>
 
 ### Step 4 Paste the copied token

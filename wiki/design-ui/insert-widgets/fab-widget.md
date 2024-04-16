@@ -27,7 +27,7 @@ If you have any ideas to make Blup better you can share them through our [Discor
     </tr>
     <tr>
       <td><strong>Postitions</strong></td>
-      <td>Set FAB positions on the X and Y axes of the mobile canvas.</td>
+      <td>Set FAB positions on the X and Y axis of the mobile canvas.</td>
     </tr> 
     <tr>
       <td><strong>FAB Size</strong></td>
@@ -43,7 +43,7 @@ If you have any ideas to make Blup better you can share them through our [Discor
     </tr>
     <tr>
       <td><strong>Margin</strong></td>
-      <td>Provide margin to the text from any of the four directions by specifying the margin value.</td>
+      <td>Provide margin to the FAB widget from any of the four directions by specifying the margin value.</td>
     </tr>
     <tr>
       <td><strong>FAB Button Color</strong></td>

@@ -2,7 +2,7 @@
 
 DatePicker Widget from the Insert is used to display a date picker dialog. This allows users to select a date from a calendar-style interface. 
 
-<figure><img src="../../../.gitbook/assets/alert-dialog.gif" alt="Date Picker"><figcaption><p>Date Picker</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/date-picker.gif" alt="Date Picker"><figcaption><p>Date Picker</p></figcaption></figure>
 
 Integrating a DatePicker widget into your UI is simple. Follow these steps to make it happen:
 
@@ -28,11 +28,11 @@ Integrating a DatePicker widget into your UI is simple. Follow these steps to ma
     </tr>
     <tr>
       <td><strong>Postitions</strong></td>
-      <td>Set DatePicker Widget positions on the X and Y axes of the mobile canvas.</td>
+      <td>Set DatePicker Widget positions on the X and Y axis of the mobile canvas.</td>
     </tr> 
     <tr>
       <td><strong>DatePicker Widget Size</strong></td>
-      <td>Specify the width and height of the CheckBox by providing values for width (w) and height (h).</td>
+      <td>Specify the width and height of the DatePicker Widget by providing values for width (w) and height (h).</td>
     </tr> 
     <tr>
       <td><strong>Z rotation</strong></td>
@@ -44,29 +44,29 @@ Integrating a DatePicker widget into your UI is simple. Follow these steps to ma
     </tr>
     <tr>
       <td><strong>Margin</strong></td>
-      <td>Provide margin to the CheckBox Widget from any of the four directions by specifying the margin value.</td>
+      <td>Provide margin to the DatePicker Widget from any of the four directions by specifying the margin value.</td>
     </tr>
     <tr>
-      <td><strong>DatePicker show preview</strong></td>
-      <td>On clicking on it you will get the view of the date picker.</td>
+      <td><strong>DatePicker Show Preview</strong></td>
+      <td>Clicking on it will display the view of the date picker.</td>
     </tr><tr>
       <td><strong>Initial Date</strong></td>
-      <td>Give it the date for giving date picker a initial date.</td>
+      <td>Set the initial date for the date picker.</td>
     </tr>
    <tr>
       <td><strong>First Date</strong></td>
-      <td>Give it the date from where calender should start. it basically specify the range of selectable dates.</td>
+      <td>Specify the starting date for the calendar, defining the range of selectable dates.</td>
     </tr>
     <tr>
       <td><strong>Last Date</strong></td>
-      <td>Give it the date where calender should end. it basically specify the range of selectable dates.</td>
+      <td>Specify the ending date for the calendar, defining the range of selectable dates.</td>
     </tr><tr>
       <td><strong>Fill</strong></td>
-      <td>It give the date picker a color from inside.</td>
+      <td>It apply the date picker a color from inside.</td>
     </tr>
    <tr>
       <td><strong>Border Color</strong></td>
-      <td>	Choose a color to set the DatePicker border color. Adjust the border color from inside, outside, or center of the DatePicker by selecting it from the drop down.</td>
+      <td>Choose a color to set the border color of the DatePicker. Adjust the border color from inside, outside, or center of the DatePicker by selecting it from the drop-down.</td>
     </tr>
    <tr>
       <td><strong>Shadow</strong></td>

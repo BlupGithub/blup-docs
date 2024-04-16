@@ -59,7 +59,7 @@ Integrating a MapView into your UI is a great way to add interactive maps to you
     </tr>
     <tr>
       <td><strong>Zoom</strong></td>
-      <td> Specify the zoom level you want to provide to the map when it loads.</td>
+      <td>Specify the zoom level you want to provide to the map when it loads.</td>
     </tr>
     <tr>
       <td><strong>Zoom Controls and Zoom Gestures Enabled</strong></td>

@@ -27,7 +27,7 @@ To utilize an Icon in your UI, adhere to these steps:
     </tr>
     <tr>
       <td><strong>Postitions</strong></td>
-      <td>Set Icon positions on the X and Y axes of the mobile canvas.</td>
+      <td>Set Icon positions on the X and Y axis of the mobile canvas.</td>
     </tr>
     <tr>
       <td><strong>Margin</strong></td>

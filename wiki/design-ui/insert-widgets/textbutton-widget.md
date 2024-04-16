@@ -28,11 +28,11 @@ To integrate a TextButton Widget into your UI, follow these steps:
     </tr>
     <tr>
       <td><strong>Postitions</strong></td>
-      <td>Set Text Button positions on the X-osition and Y-Position of the mobile canvas.</td>
+      <td>Set Text Button positions on the X-Position and Y-Position of the mobile canvas.</td>
     </tr>
     <tr>
       <td><strong>Margin</strong></td>
-      <td>Adjust text margin from top, bottom, left, or right by specifying margin values.</td>
+      <td>Adjust Text Button margin from top, bottom, left, or right by specifying margin values.</td>
     </tr>
     <tr>
       <td><strong>Text Button property</strong></td>
@@ -80,7 +80,7 @@ To integrate a TextButton Widget into your UI, follow these steps:
       <td>Change the color of the text button using color picker, hex code, or RGB sliders.</td>
     </tr><tr>
       <td><strong>Border Color</strong></td>
-      <td>	Choose a color to set the container's border color. Adjust the border color from inside, outside, or center of the container by selecting it from the drop down.</td>
+      <td>Choose a color to set the container's border color. Adjust the border color from inside, outside, or center of the container by selecting it from the drop-down.</td>
     </tr>
     <tr>
       <td><strong>Border Width</strong></td>
@@ -92,11 +92,11 @@ To integrate a TextButton Widget into your UI, follow these steps:
     </tr>
      <tr>
       <td><strong>Selectable Text</strong></td>
-      <td> Allow users to select text for toolbar operations by checking this field.</td>
+      <td>Allow users to select text for toolbar operations by checking this field.</td>
     </tr>
     <tr>
       <td><strong>Visible</strong></td>
-      <td>By checking the checkbox the entire selected Textbutton widget will be hidden.</td>
+      <td>By checking the checkbox, the entire selected Textbutton widget will be hidden.</td>
     </tr>
   </tbody>
 </table>
