@@ -459,6 +459,205 @@ This Firebase node allow you to connect with firebase for login, so that you can
   </tbody>
 </table>
 
+## Firebase Sign Up
+
+![](../../.gitbook/assets/firebase-signup.png)
+
+This Firebase Signup node allows you to connect with Firebase for authentication, enabling users to sign up with Firebase.
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DropDown Menu</strong></td>
+      <td>Select the signup method from dropdown: Email/Password or Phone Number.</td>
+    </tr>
+    <tr>
+      <td><strong>Setting Icon</strong></td>
+      <td>Click on setting icon to upload the google-service.json file.</td>
+    </tr>
+    <tr>
+      <td><strong>Username</strong></td>
+      <td>Take Input field for the username.</td>
+    </tr>
+    <tr>
+      <td><strong>User Email</strong></td>
+      <td>Take Input field for the user email.</td>
+    </tr>
+    <tr>
+      <td><strong>User Password</strong></td>
+      <td>Take Input field for the user password.</td>
+    </tr>
+    <tr>
+      <td><strong>On Success</strong></td>
+      <td>Proceed to the next step if signup is successful.</td>
+    </tr>
+    <tr>
+      <td><strong>On Failure</strong></td>
+      <td>Remain on the current step if signup fails until the issue is resolved.</td>
+    </tr>
+    <tr>
+      <td><strong>Run Trigger Checkbox</strong></td>
+      <td>Enable to add a run trigger to the node.</td>
+    </tr>
+  </tbody>
+</table>
+
+{% hint style="info" %}
+<mark style="color:blue;">Note: To learn about google-service.json and how to obtain it, [Click here](https://firebase.google.com/docs/android/setup) .</mark>
+{% endhint %}
+
+## Firebase Verify
+
+![](../../.gitbook/assets/firebase-verify.png)
+
+This Firebase Verify node allows you to connect with Firebase for authentication.
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DropDown Menu</strong></td>
+      <td>Select the verify method from dropdown: Email/Password or Phone Number.</td>
+    </tr>
+    <tr>
+      <td><strong>On Success</strong></td>
+      <td>Proceed to the next step if verify is successful.</td>
+    </tr>
+    <tr>
+      <td><strong>On Failure</strong></td>
+      <td>Remain on the current step if verify fails until the issue is resolved.</td>
+    </tr>
+    <tr>
+      <td><strong>Run Trigger Checkbox</strong></td>
+      <td>Enable to add a run trigger to the node.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Firebase Sign In
+
+![](../../.gitbook/assets/firebase-signin.png)
+
+This Firebase SignIn node allows you to connect with Firebase for authentication and sign in using Firebase.
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DropDown Menu</strong></td>
+      <td>Select the signin method from dropdown: Email/Password.</td>
+    </tr>
+    <tr>
+      <td><strong>Setting Icon</strong></td>
+      <td>Click on setting icon to upload the google-service.json file.</td>
+    </tr>
+    <tr>
+      <td><strong>User Email</strong></td>
+      <td>Take Input field for the user email.</td>
+    </tr>
+    <tr>
+      <td><strong>User Password</strong></td>
+      <td>Take Input field for the user password.</td>
+    </tr>
+    <tr>
+      <td><strong>On Success</strong></td>
+      <td>Proceed to the next step if SignIn is successful.</td>
+    </tr>
+    <tr>
+      <td><strong>On Failure</strong></td>
+      <td>Remain on the current step if SignIn fails until the issue is resolved.</td>
+    </tr>
+    <tr>
+      <td><strong>Run Trigger Checkbox</strong></td>
+      <td>Enable to add a run trigger to the node.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Firebase Sign Out
+
+![](../../.gitbook/assets/firebase-signout.png)
+
+This Firebase Sign Out node enables you to sign out using Firebase Service.
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DropDown Menu</strong></td>
+      <td>Select the Sign Out method from dropdown: Email/Password or Phone Number.</td>
+    </tr>
+    <tr>
+      <td><strong>On Success</strong></td>
+      <td>Proceed to the next step if Sign Out is successful.</td>
+    </tr>
+    <tr>
+      <td><strong>On Failure</strong></td>
+      <td>Remain on the current step if Sign Out fails until the issue is resolved.</td>
+    </tr>
+    <tr>
+      <td><strong>Run Trigger Checkbox</strong></td>
+      <td>Enable to add a run trigger to the node.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Firebase Current User
+
+![](../../.gitbook/assets/firebase-currentuser.png)
+
+Firebase current user node will refers to the authenticated user who is currently signed in to your application. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DropDown Menu</strong></td>
+      <td>Select the Sign Out method from dropdown: Email/Password.</td>
+    </tr>
+    <tr>
+      <td><strong>On Success</strong></td>
+      <td>Proceed to the next step if it get current user is successful.</td>
+    </tr>
+    <tr>
+      <td><strong>On Failure</strong></td>
+      <td>Remain on the current step if current user fails until the issue is resolved.</td>
+    </tr>
+    <tr>
+      <td><strong>Run Trigger Checkbox</strong></td>
+      <td>Enable to add a run trigger to the node.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## Payments
