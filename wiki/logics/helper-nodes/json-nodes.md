@@ -6,19 +6,24 @@ description: >-
 
 # Json Nodes
 
+Blup offers powerful JSON nodes that streamline data handling and API interactions within your app. Understanding how to use these nodes effectively can enhance the efficiency and functionality of your applications.
+
 ### JSON | Get Value
+
+The **JSON | Get Value** node is designed to retrieve values from JSON data based on specified filters. This capability is particularly useful when dealing with complex data structures returned from API calls or other sources.
 
 ![](../../../.gitbook/assets/json.png)
 
 This node retrieves values from JSON data based on a specified filter.
 
-Parameters
+#### Parameters
 
-**Input:** JSON data (e.g., from the Response Body field of a Simple Http's On Success function).\
-\
-_Var Type_: String, Map, List.\
-\
-e.g.:
+**Input**
+
+* **JSON Data**: This is the primary input, typically obtained from the Response Body field of a Simple HTTP’s On Success function.
+* **Var Type**: The type of variable expected, which can be a String, Map, or List.
+
+For example, consider the following JSON structure:
 
 ```dart
 {
@@ -45,21 +50,32 @@ e.g.:
 }  
 ```
 
-**Filter:** Requires a string input to filter the input parameter.
+Filter
 
-_Var Type_: String.
+To extract specific data, you need to provide a filter. This filter requires a string input that specifies the path to the desired value within the JSON structure.
 
-e.g:\
-`store.book[0].title` or `store.book[*].title`
+* **Var Type**: The type of variable is String.
 
-\------------------------------
+Example filters include:
 
-**Note: \_No** need to add `$.`\_ _at the start. (as it adds that itself.)_
+* `store.book[0].title` to get the title of the first book.
+* `store.book[*].title` to get the titles of all books.
 
-_------------------------------_\
+#### Important Note
+
+When using filters, there is no need to add `$.` at the beginning of the filter string as the system automatically includes it.
+
+For more complex filter expressions, you can refer to resources such as:
+
+* [JSON Path Comparison](https://cburgmer.github.io/json-path-comparison/)
+* [IETF JSONPath Draft](https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html)
+
+Additionally, to test and evaluate your JSON paths, you can use the online tool available at [JSONPath.com](https://jsonpath.com/).
+
+\
 **For more,**
 
-Detailed filters, please visit:\
+For detailed filters, please visit:\
 [https://cburgmer.github.io/json-path-comparison/](https://cburgmer.github.io/json-path-comparison/) or\
 [https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html](https://ietf-wg-jsonpath.github.io/draft-ietf-jsonpath-base/draft-ietf-jsonpath-base.html).
 
