@@ -14,49 +14,39 @@ This section includes helper functions for handling variables. These functions a
 
 For additional details, you can navigate directly to the desired nodes by clicking on the respective node below.
 
-* [Integer Node](integers-nodes.md)
-* [Double Node](double-nodes.md)
-* [Boolean Node](boolean-nodes.md)
-* [Date-Time Node](date-time-nodes.md)
-* [Json Node](json-nodes.md)
-* [List Node](list-nodes.md)
-* [Map Node](map-nodes.md)
-* [String Node](string-nodes.md)
-* [Duration Node](duration-nodes.md)
-
-1. **Integer Node**:
+1. [Integer Node](integers-nodes.md)
    * Manages whole numbers.
    * Useful for mathematical operations and counters.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/integers-nodes)
-2. **Double Node**:
+2. [Double Node](double-nodes.md)
    * Handles decimal numbers.
    * Ideal for precise calculations.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/double-nodes)
-3. **Boolean Node**:
+3. [Boolean Node](boolean-nodes.md)
    * Manages true/false values.
    * Essential for decision-making logic.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/boolean-nodes)
-4. **Date-Time Node**:
+4. [Date-Time Node](date-time-nodes.md)
    * Deals with dates and times.
    * Useful for scheduling and time-sensitive operations.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/date-time-nodes)
-5. **JSON Node**:
+5. [Json Node](json-nodes.md)
    * Manages JSON data structures.
    * Vital for handling complex data formats and APIs.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/json-nodes)
-6. **List Node**:
+6. [List Node](list-nodes.md)
    * Manages lists of items.
    * Useful for array-like data operations.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/list-nodes)
-7. **Map Node**:
+7. [Map Node](map-nodes.md)
    * Handles key-value pairs.
    * Ideal for dictionary-like data structures.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/map-nodes)
-8. **String Node**:
+8. [String Node](string-nodes.md)
    * Manages text data.
    * Useful for string manipulations and text operations.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/string-nodes)
-9. **Duration Node**:
+9. [Duration Node](duration-nodes.md)
    * Handles time durations.
    * Useful for operations involving time intervals and delays.
    * [Learn more](https://docs.blup.in/wiki/logics/helper-nodes/duration-nodes)
