@@ -1,4 +1,10 @@
-# How to Use Camera In Blup
+---
+description: >-
+  Learn to integrate and use the camera in Blup for capturing photos and videos
+  directly within your app.
+---
+
+# How to use Camera in blup
 
 <figure><img src=".gitbook/assets/camera-view-.gif" alt="Camera View"><figcaption><p>Camera View</p></figcaption></figure>
 
@@ -10,23 +16,16 @@
 
 3\. After dropping it, you can adjust the camera functionality according to your needs. This might involve setting properties such as resolution, flash mode, or capture mode.
 
-4\. Once you've configured the camera, click on the "Run" button to check the camera functionality.
-Test the camera by capturing photos or videos as needed.
+4\. Once you've configured the camera, click on the "Run" button to check the camera functionality. Test the camera by capturing photos or videos as needed.
 
 {% hint style="info" %}
-<mark style="color:blue;">Note: If you want to learn more about the Camera components, [Click Here](wiki/design-ui/insert-widgets/cameraview-widget.md).</mark>
+<mark style="color:blue;">Note: If you want to learn more about the Camera components,</mark> [<mark style="color:blue;">Click Here</mark>](wiki/design-ui/insert-widgets/cameraview-widget.md)<mark style="color:blue;">.</mark>
 {% endhint %}
 
-
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

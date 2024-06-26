@@ -1,7 +1,12 @@
+---
+description: >-
+  Implement logical operators in Blup to perform logical operations and control
+  your app's behavior.
+---
+
 # Logical Operators Section
 
 ![](../../.gitbook/assets/logical-operator.png)
-
 
 ## Logical Operator Nodes
 
@@ -17,32 +22,13 @@ This node facilitates the implementation of logical AND between two boolean valu
 
 ![](../../.gitbook/assets/logical-and.png)
 
-
 ### Components of Node
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node point for the first boolean value.</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node point for the second boolean value.</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to add a run function node point to the node. Checking this box displays the function node.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **A**               | Input node point for the first boolean value.                                                        |
+| **B**               | Input node point for the second boolean value.                                                       |
+| **Use Run Trigger** | Checkbox to add a run function node point to the node. Checking this box displays the function node. |
 
 ## OR Node
 
@@ -50,35 +36,14 @@ This node implements logical OR between two boolean values. It returns true if e
 
 ![](../../.gitbook/assets/logical-or.png)
 
-
 ### Components of Node
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node point for the first boolean value.</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node point for the second boolean value.</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to add a run function node point to the node. Checking this box displays the function node.</td>
-    </tr>
-    <tr>
-      <td><strong>A OR B</strong></td>
-      <td>Output node providing the result.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **A**               | Input node point for the first boolean value.                                                        |
+| **B**               | Input node point for the second boolean value.                                                       |
+| **Use Run Trigger** | Checkbox to add a run function node point to the node. Checking this box displays the function node. |
+| **A OR B**          | Output node providing the result.                                                                    |
 
 ## NOT Node
 
@@ -86,43 +51,18 @@ This node applies logical NOT to a provided boolean value. It negates the provid
 
 ![](../../.gitbook/assets/logical-not.png)
 
-
 ### Components of Node
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node point for the boolean value.</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to add a run function node point to the node. Checking this box displays the function node.</td>
-    </tr>
-    <tr>
-      <td><strong>NOT A</strong></td>
-      <td>Output node providing the result.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **A**               | Input node point for the boolean value.                                                              |
+| **Use Run Trigger** | Checkbox to add a run function node point to the node. Checking this box displays the function node. |
+| **NOT A**           | Output node providing the result.                                                                    |
 
-
-
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

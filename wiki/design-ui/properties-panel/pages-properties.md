@@ -1,3 +1,9 @@
+---
+description: >-
+  Customize page properties in Blup to enhance the functionality and design of
+  your app's pages.
+---
+
 # Pages Properties
 
 <figure><img src="../../../.gitbook/assets/page-ui.gif" alt="Page UI"><figcaption><p>Page UI</p></figcaption></figure>

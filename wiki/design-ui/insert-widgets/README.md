@@ -1,4 +1,10 @@
-# Insert Widgets
+---
+description: >-
+  Learn how to insert and configure a variety of widgets in Blup to enhance your
+  application's functionality.
+---
+
+# Insert Panel
 
 <figure><img src="../../../.gitbook/assets/insert-widgets.gif" alt="Insert Widgets"><figcaption><p>Insert Widgets</p></figcaption></figure>
 
@@ -18,7 +24,7 @@ Now, let's explore the available widgets.
 
 [CheckBox Widget](checkbox-widget.md)
 
-[Date Picker Widget](date_picker-widget.md)
+[Date Picker Widget](date\_picker-widget.md)
 
 [FAB Widget](fab-widget.md)
 
@@ -49,7 +55,6 @@ Now, let's explore the available widgets.
 [Time Picker Widget](timepicker-widget.md)
 
 [Web View Widget](web-view-widget.md)
-
 
 ## Music to go with.
 

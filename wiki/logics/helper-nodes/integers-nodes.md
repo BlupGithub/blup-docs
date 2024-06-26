@@ -1,4 +1,10 @@
-# Integer Helper Function
+---
+description: >-
+  Use integer nodes in Blup for numeric operations and logic within your app's
+  functionality.
+---
+
+# Integers Nodes
 
 ![](../../../.gitbook/assets/helper-int.gif)
 
@@ -14,7 +20,7 @@ This node checks if the given integer number is even.
 
 1\. **Value** – Input node to provide the integer number to be checked. You can directly input the number into the box.
 
-2\.   **Result** –  Output node that returns true if the input integer is even; otherwise, it returns false.
+2\. **Result** – Output node that returns true if the input integer is even; otherwise, it returns false.
 
 ### Integer | Is Odd Node
 
@@ -24,9 +30,9 @@ This node helps you to check the given integer number is odd or not.
 
 #### Components of Node
 
-1\. **Value** – Input node to provide the integer number to be checked for odd. You can directly input the number into the box.&#x20;
+1\. **Value** – Input node to provide the integer number to be checked for odd. You can directly input the number into the box.
 
-2\.   **Result** – Output node that returns true if the input integer is odd; otherwise, it returns false.
+2\. **Result** – Output node that returns true if the input integer is odd; otherwise, it returns false.
 
 ### Integer | Abs Node
 
@@ -50,17 +56,12 @@ This node checks whether the provided number is negative or not.
 
 1\. **Value** – Input node providing the integer number to be checked. You can also directly input the number into the box.
 
-2\.   **Result** – Output node returning true if the provided number is negative; otherwise, it returns false.
+2\. **Result** – Output node returning true if the provided number is negative; otherwise, it returns false.
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

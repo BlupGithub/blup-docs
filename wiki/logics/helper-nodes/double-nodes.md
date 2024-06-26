@@ -1,4 +1,10 @@
-# Double Helper Function Sub-Section
+---
+description: >-
+  Manage and use double data type nodes in Blup for numeric operations and
+  calculations.
+---
+
+# Double Nodes
 
 ![](../../../.gitbook/assets/helper-double.gif)
 
@@ -10,7 +16,7 @@ This node returns the largest integer that is smaller than or equal to the input
 
 #### Components of Node
 
-1\. **Value** – Input node providing the double number to apply the floor operation on. You can also directly input the number into the box.&#x20;
+1\. **Value** – Input node providing the double number to apply the floor operation on. You can also directly input the number into the box.
 
 2\. **Result** – Output node returning the integer number after applying the floor operation on the double number.
 
@@ -24,7 +30,7 @@ Components of Node
 
 1\. **Value** – Input node providing the double number to apply the ceil operation on. You can also directly input the number into the box.
 
-2\.   **Result** –  Output node returning the integer number after applying the ceil operation on the double number.
+2\. **Result** – Output node returning the integer number after applying the ceil operation on the double number.
 
 ### Double | Round Node
 
@@ -44,14 +50,13 @@ This node applies rounding to decimal numbers, simplifying them while keeping th
 
 This node converts double (decimal point numbers) to their absolute form, ensuring that negative numbers are converted to positive.
 
-For example, if the input number is -12.5123, the output is 12.5123.&#x20;
+For example, if the input number is -12.5123, the output is 12.5123.
 
 #### Components of Node
 
-1\. **Value** –   Input node providing the double number to convert to its absolute form (positive). You can also directly input the number into the box.
+1\. **Value** – Input node providing the double number to convert to its absolute form (positive). You can also directly input the number into the box.
 
 2\. **Result** – Output node returning the positive number after applying the absolute value operation.
-
 
 ### Double | Is Negative Node
 
@@ -63,7 +68,7 @@ This node helps you to check whether the provided number \[decimal number] is ne
 
 1\. **Value** – This input node provides the double number that you want to check for negativity. You can either connect another node to provide the number or directly enter the number in the input box.
 
-2\.   **Result** – This output node gives true if the provided number is negative, otherwise it returns false.
+2\. **Result** – This output node gives true if the provided number is negative, otherwise it returns false.
 
 ### Double|To Int Node
 
@@ -75,17 +80,12 @@ This node converts a decimal number into an integer. For example, if the input n
 
 1\. **Value** – This input node provides the double number that you want to convert to an integer. You can either connect another node to provide the number or directly enter the number in the input box.
 
-2\.   **Result** – This output node gives the integer number after the conversion.
+2\. **Result** – This output node gives the integer number after the conversion.
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

@@ -1,3 +1,9 @@
+---
+description: >-
+  Select and use assets from your library in Blup to enrich your app's content
+  and design.
+---
+
 # Choose from Assets
 
 How to select images from project assets

@@ -1,3 +1,9 @@
+---
+description: >-
+  Utilize the right-click menu in Blup for quick access to essential design
+  tools and options.
+---
+
 # Right-Click Menu in Design
 
 The Right-Click Menu in **Design** provides a comprehensive set of functionalities for efficiently managing and manipulating components within your project.

@@ -1,8 +1,12 @@
+---
+description: >-
+  Use relational operators in Blup to compare values and make decisions based on
+  those comparisons.
+---
+
 # Relational Operators Section
 
-
 ![](../../.gitbook/assets/relational.png)
-
 
 ## Relational Operator Section
 
@@ -20,7 +24,6 @@ In this sub-section, nodes facilitating relational comparison between integer nu
 
 ![](../../.gitbook/assets/relational-int.png)
 
-
 ### Int | Greater than
 
 This node compares two integer numbers and returns true if the first number (A) is greater than the second number (B).
@@ -29,32 +32,12 @@ This node compares two integer numbers and returns true if the first number (A) 
 
 #### Components of Greater than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A &gt; B</strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A > B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Int | Greater than or Equal To
 
@@ -64,32 +47,12 @@ This node performs a greater than or equal to comparison between two integer num
 
 #### Components of Greater than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A >= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A >= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Int | Less than
 
@@ -99,32 +62,12 @@ This node compares two integer numbers and returns true if the first number (A) 
 
 #### Components of Less Than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A < B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A < B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Int | Less than or Equal To
 
@@ -134,33 +77,12 @@ This node performs a less than or equal to comparison between two integer number
 
 #### Components of Less than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A <= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A <= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Int | Is Equal To
 
@@ -170,33 +92,12 @@ This node checks whether two integer numbers (A & B) are equal.
 
 #### Components of Is Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A == B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A == B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Int | Not Equal To
 
@@ -206,38 +107,16 @@ This node checks whether two integer numbers (A & B) are not equal.
 
 #### Components of Not Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first integer number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second integer number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A != B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first integer number (A).             |
+| **B**               | Input node providing the second integer number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A != B**          | Output node providing the result of the comparison in Boolean. |
 
 ## Double Relational Operator Sub-Section
 
 ![](../../.gitbook/assets/relational-double.png)
-
 
 ### Double | Greater than
 
@@ -247,33 +126,12 @@ This node compares two decimal numbers and returns true if the first number (A) 
 
 #### Components of Greater than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A > B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A > B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Double | Greater than or Equal To
 
@@ -283,33 +141,12 @@ This node performs a greater than or equal to comparison between two decimal num
 
 #### Components of Greater than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A >= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A >= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Double | Less than
 
@@ -317,36 +154,14 @@ This node compares two decimal numbers and returns true if the first number (A) 
 
 ![](../../.gitbook/assets/double-less-than.png)
 
-
 #### Components of Less Than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A < B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A < B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Double | Less than or Equal To
 
@@ -356,33 +171,12 @@ This node performs a less than or equal to comparison between two decimal number
 
 #### Components of Less than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A <= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A <= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Double | Is Equal To
 
@@ -392,32 +186,12 @@ This node checks whether two decimal numbers (A & B) are equal.
 
 #### Components of Is Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A == B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A == B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Double | Not Equal To
 
@@ -427,37 +201,16 @@ This node checks whether two decimal numbers (A & B) are not equal.
 
 #### Components of Not Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first decimal number (A).</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second decimal number (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A != B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first decimal number (A).             |
+| **B**               | Input node providing the second decimal number (B).            |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A != B**          | Output node providing the result of the comparison in Boolean. |
 
 ## Duration Relational Operator Sub-Section
 
 ![](../../.gitbook/assets/relational-duration.png)
-
 
 ### Duration | Greater than
 
@@ -465,36 +218,14 @@ This node compares two durations and returns true if the first duration (A) is g
 
 ![](../../.gitbook/assets/duration-greater-than.png)
 
-
 #### Components of Greater than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A > B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A > B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Duration | Greater than or Equal To
 
@@ -502,36 +233,14 @@ This node performs a greater than or equal to comparison between two durations (
 
 ![](../../.gitbook/assets/duration-greater-than-equal-to.png)
 
-
 #### Components of Greater than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A >= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A >= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Duration | Less than
 
@@ -541,34 +250,12 @@ This node compares two durations and returns true if the first duration (A) is l
 
 #### Components of Less Than
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A < B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A < B**           | Output node providing the result of the comparison in Boolean. |
 
 ### Duration | Less than or Equal To
 
@@ -578,33 +265,12 @@ This node performs a less than or equal to comparison between two durations (A &
 
 #### Components of Less than or Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A <= B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
-
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A <= B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Duration | Is Equal To
 
@@ -614,32 +280,12 @@ This node checks whether two durations (A & B) are equal.
 
 #### Components of Is Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A == B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A == B**          | Output node providing the result of the comparison in Boolean. |
 
 ### Duration | Not Equal To
 
@@ -649,43 +295,17 @@ This node checks whether two durations (A & B) are not equal.
 
 #### Components of Not Equal To
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>A</strong></td>
-      <td>Input node providing the first duration (A)</td>
-    </tr>
-    <tr>
-      <td><strong>B</strong></td>
-      <td>Input node providing the second duration (B).</td>
-    </tr>
-    <tr>
-      <td><strong>Use Run Trigger</strong></td>
-      <td>Checkbox to generate a run trigger in the node.</td>
-    </tr>
-    <tr>
-      <td><strong>A != B </strong></td>
-      <td>Output node providing the result of the comparison in Boolean.</td>
-    </tr>
-  </tbody>
-</table>
+| Component           | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| **A**               | Input node providing the first duration (A)                    |
+| **B**               | Input node providing the second duration (B).                  |
+| **Use Run Trigger** | Checkbox to generate a run trigger in the node.                |
+| **A != B**          | Output node providing the result of the comparison in Boolean. |
 
-
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

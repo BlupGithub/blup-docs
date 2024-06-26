@@ -1,4 +1,7 @@
 ---
+description: >-
+  Navigate and manage your project files efficiently within the Blup Code
+  Editor's File Explorer.
 cover: ../../.gitbook/assets/Code Editor Cover.png
 coverY: 0
 ---

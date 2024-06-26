@@ -1,3 +1,9 @@
+---
+description: >-
+  Use radio buttons in Blup for single-choice selections, enhancing forms and
+  surveys in your application.
+---
+
 # Radio Widget
 
 Radio widget is used to create radio buttons, which allow users to select one option from a set of mutually exclusive options. Radio buttons are typically used when there are a limited number of choices and only one selection is allowed at a time.
@@ -14,76 +20,26 @@ To utilize an Radio Widget in your Flutter UI, adhere to these steps:
 
 ### Components of Radio Widget
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Align Icons</strong></td>
-      <td>Click icons or use shortcut keys to align Radio Widget. For example, click "Align Left" or use Ctrl+Shift+Left to left-align Radio Widget.</td>
-    </tr>
-    <tr>
-      <td><strong>Postitions</strong></td>
-      <td>Set Radio Widget positions on the X and Y axis of the mobile canvas.</td>
-    </tr> 
-    <tr>
-      <td><strong>Radio Widget Size</strong></td>
-      <td>Specify the width and height of the CheckBox by providing values for width (w) and height (h).</td>
-    </tr> 
-    <tr>
-      <td><strong>Z rotation</strong></td>
-      <td>Rotate the Radio Widget by specifying a rotation value.</td>
-    </tr>
-     <tr>
-      <td><strong>Border Radius</strong></td>
-      <td>Adjust corner curvature by providing a value to create rounded corners. Individual corner adjustments are available by clicking on each corner.</td>
-    </tr>
-    <tr>
-      <td><strong>Margin</strong></td>
-      <td>Provide margin to the Radio Widget from any of the four directions by specifying the margin value.</td>
-    </tr>
-    <tr>
-      <td><strong>Radio Value</strong></td>
-      <td>Set the value to true to mark the radio widget, and false to unmark it.</td>
-    </tr><tr>
-      <td><strong>Radio Group Value</strong></td>
-      <td>Here you can track the radio value when it is in group.</td>
-    </tr>
-    <tr>
-      <td><strong>Toggleable</strong></td>
-      <td>When checked, combines a Radio with text.</td>
-    </tr>
-    <tr>
-      <td><strong>Appearance</strong></td>
-      <td>Give the radio widget a color according to your needs.</td>
-    </tr><tr>
-      <td><strong>Focus Color</strong></td>
-      <td>Represents the color displayed when a widget gains focus.</td>
-    </tr>
-    <tr>
-      <td><strong>Hover Color</strong></td>
-      <td>Represents the color displayed when a widget is hovered over by the cursor.</td>
-    </tr>
-    <tr>
-      <td><strong>Visible</strong></td>
-      <td>By checking the checkbox, the entire selected radio widget will be hidden.</td>
-    </tr>
-  </tbody>
-</table>
+| Component             | Description                                                                                                                                     |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Align Icons**       | Click icons or use shortcut keys to align Radio Widget. For example, click "Align Left" or use Ctrl+Shift+Left to left-align Radio Widget.      |
+| **Postitions**        | Set Radio Widget positions on the X and Y axis of the mobile canvas.                                                                            |
+| **Radio Widget Size** | Specify the width and height of the CheckBox by providing values for width (w) and height (h).                                                  |
+| **Z rotation**        | Rotate the Radio Widget by specifying a rotation value.                                                                                         |
+| **Border Radius**     | Adjust corner curvature by providing a value to create rounded corners. Individual corner adjustments are available by clicking on each corner. |
+| **Margin**            | Provide margin to the Radio Widget from any of the four directions by specifying the margin value.                                              |
+| **Radio Value**       | Set the value to true to mark the radio widget, and false to unmark it.                                                                         |
+| **Radio Group Value** | Here you can track the radio value when it is in group.                                                                                         |
+| **Toggleable**        | When checked, combines a Radio with text.                                                                                                       |
+| **Appearance**        | Give the radio widget a color according to your needs.                                                                                          |
+| **Focus Color**       | Represents the color displayed when a widget gains focus.                                                                                       |
+| **Hover Color**       | Represents the color displayed when a widget is hovered over by the cursor.                                                                     |
+| **Visible**           | By checking the checkbox, the entire selected radio widget will be hidden.                                                                      |
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

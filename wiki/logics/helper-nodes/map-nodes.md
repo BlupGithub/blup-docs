@@ -1,4 +1,10 @@
-# Map Helper Function Sub-Section
+---
+description: >-
+  Implement map nodes in Blup for key-value pair data management within your
+  application.
+---
+
+# Map Nodes
 
 ![](../../../.gitbook/assets/helper-map.gif)
 
@@ -6,7 +12,7 @@ This section consists of all the helper function nodes of map.
 
 ### Map | Remove
 
-![](<../../../.gitbook/assets/map-remove.png>)
+![](../../../.gitbook/assets/map-remove.png)
 
 This node removes the key and its associated value from the map, if present. If the key is not found, no changes are made to the map.
 
@@ -14,7 +20,7 @@ For example, map {“athul”: “chaudhary”}, key = “atul”, so node remov
 
 ### Map | Clear
 
-![](<../../../.gitbook/assets/map-clear.png>)
+![](../../../.gitbook/assets/map-clear.png)
 
 This node removes all the values that are present in the provided map, and then it returns the empty map.
 
@@ -30,7 +36,7 @@ For example, map = {“CSE”:”atul”}, other map = {“IT”: “ashutosh”
 
 ### Map | Contains Key
 
-![](<../../../.gitbook/assets/map-containskey.png>)
+![](../../../.gitbook/assets/map-containskey.png)
 
 This node checks if the provided key is present in the map.
 
@@ -42,12 +48,9 @@ For example, map = {“CSE”: “atul”}, key = “CSE”, then the node retur
 
 This node checks if the provided value is present in the map.
 
-For example,
-Input map: {"CSE": "atul"}, value: "atul"
-Output: true
+For example, Input map: {"CSE": "atul"}, value: "atul" Output: true
 
-Input map: {"CSE": "atul"}, value: "ashutosh"
-Output: false
+Input map: {"CSE": "atul"}, value: "ashutosh" Output: false
 
 ### Map | Is Empty
 
@@ -55,10 +58,7 @@ Output: false
 
 This node checks if the provided map is empty or not if empty then it return true, if not then it returns false.
 
-For example,Input map: {}
-Output: true
-Input map: {"CSE": "atul"}
-Output: false \[because map consists of some value ].
+For example,Input map: {} Output: true Input map: {"CSE": "atul"} Output: false \[because map consists of some value ].
 
 ### Map | Length
 
@@ -66,8 +66,7 @@ Output: false \[because map consists of some value ].
 
 This node calculates the number of key-value pairs in the map.
 
-For example,Input map: {"CSE": "atul", "IT": "ashutosh"}
-Output length: 2 \[because two key-values pairs are present].
+For example,Input map: {"CSE": "atul", "IT": "ashutosh"} Output length: 2 \[because two key-values pairs are present].
 
 ### Map | Add Key Value
 
@@ -75,15 +74,13 @@ Output length: 2 \[because two key-values pairs are present].
 
 This node adds a new key-value pair to the map to the existing map.
 
-For example,Input map: {"CSE": "atul"}, key: "IT", value: "ashutosh"
-Output map: {"CSE": "atul", "IT": "ashutosh"}
+For example,Input map: {"CSE": "atul"}, key: "IT", value: "ashutosh" Output map: {"CSE": "atul", "IT": "ashutosh"}
 
 ### Map | Add Multiple Key Value
 
 This node helps you to add multiple key-value pairs in a single go, this node returns the updated mao with all the newly added key-value pairs.
 
-For example, Input map: {"atul": "chaudhary"}, keys: "sahaj", "ashutosh", values: "rana", "agarwal"
-Output map: {"atul": "chaudhary", "sahaj": "rana", "ashutosh": "agarwal"}
+For example, Input map: {"atul": "chaudhary"}, keys: "sahaj", "ashutosh", values: "rana", "agarwal" Output map: {"atul": "chaudhary", "sahaj": "rana", "ashutosh": "agarwal"}
 
 ### Map | Get Value
 
@@ -91,8 +88,7 @@ Output map: {"atul": "chaudhary", "sahaj": "rana", "ashutosh": "agarwal"}
 
 This node retrieves the value associated with a specified key from the map.
 
-For example, Input map: {"CSE": "atul"}, key: "CSE"
-Output value: "atul"
+For example, Input map: {"CSE": "atul"}, key: "CSE" Output value: "atul"
 
 ### Map | Get All Keys
 
@@ -100,8 +96,7 @@ Output value: "atul"
 
 This node retrieves all the keys present in the map.
 
-For example, Input map: {"CSE": "atul", "IT": "ashutosh"}
-Output keys: ["CSE", "IT"]
+For example, Input map: {"CSE": "atul", "IT": "ashutosh"} Output keys: \["CSE", "IT"]
 
 ### Map | Get All Values
 
@@ -109,18 +104,12 @@ Output keys: ["CSE", "IT"]
 
 This node retrieves all the values present in the map.
 
-For example, Input map: {"CSE": "atul", "IT": "ashutosh"}
-Output values: ["atul", "ashutosh"]
+For example, Input map: {"CSE": "atul", "IT": "ashutosh"} Output values: \["atul", "ashutosh"]
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

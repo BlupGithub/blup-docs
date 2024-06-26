@@ -1,4 +1,7 @@
 ---
+description: >-
+  Discover the features of the Blup Code Editor for coding, editing, and
+  customizing your Blup applications.
 cover: ../../.gitbook/assets/Code Editor Cover.png
 coverY: 0
 layout:

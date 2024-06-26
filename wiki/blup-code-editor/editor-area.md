@@ -1,4 +1,7 @@
 ---
+description: >-
+  Edit your code and customize your app within the Editor Area of the Blup Code
+  Editor for a seamless development experience.
 cover: ../../.gitbook/assets/Code Editor Cover.png
 coverY: 0
 ---

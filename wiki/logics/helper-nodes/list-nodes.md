@@ -1,4 +1,10 @@
-# List Helper Function Sub-Section
+---
+description: >-
+  Manage and use list nodes in Blup for handling collections and data arrays
+  effectively.
+---
+
+# List Nodes
 
 This sub-section provides helper functions related to lists.
 
@@ -72,7 +78,7 @@ For example, Input list1 = \[1,2,3] and Input list2 = \[4,5,6] and the Output li
 
 This node helps you to insert at a particular position or index in the list, inserting an item into the list can cause the increase in the length of the list by one and shifts all objects at or after the index towards the end of the list.
 
-For example, Input list: [1, 2, 3, 4], index: 2, element: 10 Output list: [1, 2, 10, 3, 4].
+For example, Input list: \[1, 2, 3, 4], index: 2, element: 10 Output list: \[1, 2, 10, 3, 4].
 
 ### List | Remove Range
 
@@ -82,7 +88,7 @@ This node helps you to remove multiple sets of consecutive elements from the lis
 
 Removes the elements with positions greater than or equal to start and less than the end, from the list. This reduces the list's length by the end - start.
 
-For example, Input list = \[1,2,3,4,5,6] , start index: 0, end index:  2 and the Output list: \[3,4,5,6] because end is not included.
+For example, Input list = \[1,2,3,4,5,6] , start index: 0, end index: 2 and the Output list: \[3,4,5,6] because end is not included.
 
 ### List | Clear
 
@@ -116,7 +122,7 @@ For example, Input list: \[1,2,3,4], Output: false, if Input list: \[], Output: 
 
 This node finds the index of a particular element in the list. It returns the index of the first occurrence of the element.
 
-For example, Input list: \[1,2,3,4], element: 3, then node Output index: 2.&#x20;
+For example, Input list: \[1,2,3,4], element: 3, then node Output index: 2.
 
 {% hint style="info" %}
 <mark style="color:blue;">Note: The index in the list starts from zero.</mark>
@@ -130,15 +136,10 @@ This node helps you to get the element at a particular index. This node returns 
 
 For example, list = \[1,2,3,4,5,6] , index =2, then the node return 3, as indexing in list starts from zero.
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

@@ -1,3 +1,9 @@
+---
+description: >-
+  Customize progress bars in Blup to visually display task completion and
+  progress to your users.
+---
+
 # Progress bar Widget
 
 Progress bar widget to create a progress bar, which visually represents the progress of a task with a horizontal bar.
@@ -14,52 +20,20 @@ Integrating a Progress Bar into your UI is essential for indicating progress or 
 
 ### Components of Progress bar Widget
 
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Align Icons</strong></td>
-      <td>Click icons or use shortcut keys to align  Progress bar Widget. For example, click "Align Left" or use Ctrl+Shift+Left to left-align  Progress bar Widget.</td>
-    </tr>
-    <tr>
-      <td><strong>Postitions</strong></td>
-      <td>Set Progress bar Widget positions on the X and Y axis of the mobile canvas.</td>
-    </tr>
-    <tr>
-      <td><strong>Margin</strong></td>
-      <td>Adjust the Progress Bar Widget margin from the top, bottom, left, or right by specifying margin values.</td>
-    </tr>
-    <tr>
-      <td><strong>Progress bar value</strong></td>
-      <td>Set the Progress Bar value to determine the range shown in the Progress Bar according to your needs. If you want to show it as a loading indicator, use the value -1.</td>
-    </tr> <tr>
-      <td><strong>Progress bar Color</strong></td>
-      <td>This will give the color to your Progress Bar according to your need.</td>
-    </tr> <tr>
-      <td><strong>Progress bar Background Color</strong></td>
-      <td>This will give the background color to your Progress Bar according to your need.</td>
-    </tr>
-    <tr>
-      <td><strong>Visible</strong></td>
-      <td>By checking the checkbox the entire selected Progress bar widget will be hidden.</td>
-    </tr>
-  </tbody>
-</table>
+| Component                         | Description                                                                                                                                                           |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Align Icons**                   | Click icons or use shortcut keys to align Progress bar Widget. For example, click "Align Left" or use Ctrl+Shift+Left to left-align Progress bar Widget.              |
+| **Postitions**                    | Set Progress bar Widget positions on the X and Y axis of the mobile canvas.                                                                                           |
+| **Margin**                        | Adjust the Progress Bar Widget margin from the top, bottom, left, or right by specifying margin values.                                                               |
+| **Progress bar value**            | Set the Progress Bar value to determine the range shown in the Progress Bar according to your needs. If you want to show it as a loading indicator, use the value -1. |
+| **Progress bar Color**            | This will give the color to your Progress Bar according to your need.                                                                                                 |
+| **Progress bar Background Color** | This will give the background color to your Progress Bar according to your need.                                                                                      |
+| **Visible**                       | By checking the checkbox the entire selected Progress bar widget will be hidden.                                                                                      |
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

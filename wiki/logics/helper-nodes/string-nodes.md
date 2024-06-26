@@ -1,4 +1,10 @@
-# String Helper Function Sub-Section
+---
+description: >-
+  Use string nodes in Blup for text operations and manipulations within your
+  application's logic.
+---
+
+# String Nodes
 
 ![](../../../.gitbook/assets/helper-string.gif)
 
@@ -8,7 +14,7 @@ This sub-section consists of all the helper functions related to strings.
 
 ![](../../../.gitbook/assets/string-split.png)
 
-This node splits the string at matches of a pattern and returns a list of substrings. It finds all the matches of the pattern in the string and returns the list of substrings between the matches.&#x20;
+This node splits the string at matches of a pattern and returns a list of substrings. It finds all the matches of the pattern in the string and returns the list of substrings between the matches.
 
 For example If the value in string node is = "Hello world!" and Pattern value = “ ” Then it returns the list consisting of \['Hello', 'world!'];
 
@@ -16,7 +22,7 @@ For example If the value in string node is = "Hello world!" and Pattern value = 
 
 ![](../../../.gitbook/assets/string-tolowerxase.png)
 
-This node converts all characters in the string to lowercase.&#x20;
+This node converts all characters in the string to lowercase.
 
 ### String | ToUpperCase
 
@@ -164,9 +170,9 @@ For example, integer = 10 is convert into string = “10”, or Boolean = true i
 
 This node returns an integer representing the relationship between two strings:
 
-0 − if the strings are equal.&#x20;
+0 − if the strings are equal.
 
-1 − if the first string is greater than the second&#x20;
+1 − if the first string is greater than the second
 
 \-1 − if the first string is smaller than the second
 
@@ -180,23 +186,23 @@ for example 1. string = “hello” pattern = “llo” , result = true; 2. stri
 
 ### String | Starts With
 
-![](<../../../.gitbook/assets/string-startwith.png>)
+![](../../../.gitbook/assets/string-startwith.png)
 
 This node returns 'true' if the provided string starts with a particular substring, otherwise 'false'.
 
-for example&#x20;
+for example
 
-&#x20;string = “hello” pattern = “hel” , result = true.
+string = “hello” pattern = “hel” , result = true.
 
-&#x20;string “hello” pattern =”yo” , result = false.
+string “hello” pattern =”yo” , result = false.
 
 ### String | Trim Left
 
 ![](../../../.gitbook/assets/string-trimleft.png)
 
-This node returns the string without any leading whitespace on the left.&#x20;
+This node returns the string without any leading whitespace on the left.
 
-For example&#x20;
+For example
 
 1\. Input =” Hello” Output = “Hello”.
 
@@ -206,23 +212,18 @@ For example&#x20;
 
 ![](../../../.gitbook/assets/string-trimright.png)
 
-This node returns the string without any trailing whitespace on the right.&#x20;
+This node returns the string without any trailing whitespace on the right.
 
-For example&#x20;
+For example
 
 1\. Input =”Hello ” Output = “Hello”.
 
 2\. Input =” Resume ”, Output = “ Resume”.
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

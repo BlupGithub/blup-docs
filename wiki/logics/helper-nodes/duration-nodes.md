@@ -1,4 +1,10 @@
-# Duration Helper Function Sub-Section
+---
+description: >-
+  Implement duration nodes in Blup for precise time interval calculations in
+  your application.
+---
+
+# Duration Nodes
 
 ![](../../../.gitbook/assets/helper-duration.gif)
 
@@ -14,11 +20,11 @@ This node returns a Duration that has the same length as the provided one but is
 
 This node compares two durations and returns:
 
-This node returns -&#x20;
+This node returns -
 
-1\. Zero if both durations are the same.&#x20;
+1\. Zero if both durations are the same.
 
-2\. A negative integer if the first duration is shorter than the second.&#x20;
+2\. A negative integer if the first duration is shorter than the second.
 
 3\. A positive integer if the first duration is greater than the second.
 
@@ -36,17 +42,12 @@ This node returns true if the duration provided is negative. If the duration is 
 
 ![](../../../.gitbook/assets/duration-conversion.png)
 
-This node helps you to convert the duration into the required format for example, hours into minutes.&#x20;
+This node helps you to convert the duration into the required format for example, hours into minutes.
 
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

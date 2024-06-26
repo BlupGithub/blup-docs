@@ -1,4 +1,10 @@
-# How To Use Splash Screen In Blup
+---
+description: >-
+  Implement a splash screen in Blup to enhance the user experience during app
+  startup.
+---
+
+# How to add Splash screen in Blup
 
 <figure><img src=".gitbook/assets/logo-.gif" alt="Splash Screen"><figcaption><p>Splash Screen</p></figcaption></figure>
 
@@ -10,16 +16,10 @@
 
 4\. **Run the App:** Now, whenever you run your app on a device or emulator, the splash screen will automatically appear with the logo and background color you've configured.
 
-
-If you have any ideas to make Blup better you can share them through our [Discord community channel ](https://discord.com/channels/940632966093234176/965313562425823303)
+If you have any ideas to make Blup better you can share them through our [Discord community channel](https://discord.com/channels/940632966093234176/965313562425823303)
 
 ## Music to go with.
- 
-<div class="container">
-  {% tab title="Music" %}
-  {% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
-  Lofi music
-  {% endembed %}
-  {% endtab %}
-  {% endtabs %}
-</div>
+
+{% embed url="https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=2c7f55bd3f944878" %}
+Lofi music
+{% endembed %}

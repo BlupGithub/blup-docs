@@ -1,3 +1,9 @@
+---
+description: >-
+  Efficiently manage your app's pages and layers in Blup with the Pages & Layers
+  Panel.
+---
+
 # Pages/Layers Panel
 
 Layer/Panel consists of:&#x20;
