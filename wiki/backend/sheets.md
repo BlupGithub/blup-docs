@@ -1,3 +1,10 @@
+---
+description: >-
+  Sheets is a powerful GUI database designed for seamless integration with Blup.
+  Built on AWS, Sheets ensures secure, high-availability data management for
+  effortless use.
+---
+
 # Sheets
 
 Sheets is an advanced graphical user interface (GUI) database meticulously developed to seamlessly integrate with Blup. Crafted from the ground up, Sheets operates in tandem with Blup, facilitating smooth data management. Leveraging the robust infrastructure of Amazon Web Services (AWS),&#x20;
