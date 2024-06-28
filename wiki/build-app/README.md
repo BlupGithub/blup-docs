@@ -1,5 +1,8 @@
 ---
-description: Pre-built backend and sql for building apps.
+description: >-
+  Build your app effortlessly with Blup! Our guide offers step-by-step
+  instructions, expert tips, and best practices to turn your app idea into
+  reality.
 cover: ../../.gitbook/assets/backend_cover.png
 coverY: 0
 layout:
