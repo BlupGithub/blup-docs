@@ -8,15 +8,13 @@ description: >-
 
 Integrating and using WebView in Blup allows you to display web content seamlessly within your application. This guide will walk you through the steps to set up and customize a WebView in your Blup app.
 
-#### WebView Overview
+### WebView Overview
 
 WebView is a powerful tool that enables you to embed web pages directly into your app. This can be useful for displaying web content like articles, web forms, or entire websites without the need for users to leave your app.
 
 <figure><img src=".gitbook/assets/webview-.gif" alt="Web View"><figcaption><p>Web View</p></figcaption></figure>
 
 ### Step-by-Step Guide to Using WebView in Blup
-
-&#x20;
 
 ### 1. **Insert WebView**:
 
